@@ -1,0 +1,33 @@
+float4 LinePixelShader() : SV_TARGET
+{
+	return float4(1.0f, 1.0f, 1.0f, 1.0f);
+}
+
+//Texture2D shaderTexture;
+//SamplerState SampleType;
+
+//cbuffer LightBuffer
+//{
+//    float4 diffuseColor;
+//    float3 lightDirection;
+//    float padding;
+//};
+
+
+//struct PixelInputType
+//{
+//    float4 position : SV_POSITION;
+//    float3 normal : NORMAL;
+//};
+
+
+//float4 LinePixelShader(PixelInputType input) : SV_TARGET
+//{
+//    float3 lightDir;
+//    float lightIntensity;
+//    float4 color;
+//    lightDir = -lightDirection;
+//    lightIntensity = saturate(dot(input.normal, lightDir));
+//    color = saturate(diffuseColor * lightIntensity);
+//    return color;
+//}

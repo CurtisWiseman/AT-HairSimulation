@@ -1,0 +1,12 @@
+﻿  graphicsclass.cpp
+c:\users\can0b\desktop\uni work\at\thing 2\hairdxrt3\engine\graphicsclass.cpp(42): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+c:\users\can0b\desktop\uni work\at\thing 2\hairdxrt3\engine\graphicsclass.cpp(55): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+  Generating Code...
+  Compiling...
+  lineclass.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  systemclass.cpp
+  modelclass.cpp
+  main.cpp
+  Engine.vcxproj -> C:\Users\can0b\Desktop\Uni Work\AT\Thing 2\HairDXRT3\Debug\Engine.exe
